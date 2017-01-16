@@ -86,6 +86,13 @@ DerivedDataCache/*
 
 # Executables
 
+
+# additional added
 *.log
 
 Saved/
+
+
+*.exp
+*.pdb
+*.target
