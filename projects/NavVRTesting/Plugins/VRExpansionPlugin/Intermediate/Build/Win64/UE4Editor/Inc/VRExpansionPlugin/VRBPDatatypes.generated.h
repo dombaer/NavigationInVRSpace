@@ -11,33 +11,33 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define VREXPANSIONPLUGIN_VRBPDatatypes_generated_h
 
-#define NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRBPDatatypes_h_521_GENERATED_BODY \
+#define NavVRTesting_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRBPDatatypes_h_521_GENERATED_BODY \
 	friend VREXPANSIONPLUGIN_API class UScriptStruct* Z_Construct_UScriptStruct_FBPActorPhysicsHandleInformation(); \
 	static class UScriptStruct* StaticStruct();
 
 
-#define NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRBPDatatypes_h_443_GENERATED_BODY \
+#define NavVRTesting_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRBPDatatypes_h_443_GENERATED_BODY \
 	friend VREXPANSIONPLUGIN_API class UScriptStruct* Z_Construct_UScriptStruct_FBPInterfaceProperties(); \
 	static class UScriptStruct* StaticStruct();
 
 
-#define NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRBPDatatypes_h_246_GENERATED_BODY \
+#define NavVRTesting_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRBPDatatypes_h_246_GENERATED_BODY \
 	friend VREXPANSIONPLUGIN_API class UScriptStruct* Z_Construct_UScriptStruct_FBPActorGripInformation(); \
 	static class UScriptStruct* StaticStruct();
 
 
-#define NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRBPDatatypes_h_172_GENERATED_BODY \
+#define NavVRTesting_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRBPDatatypes_h_172_GENERATED_BODY \
 	friend VREXPANSIONPLUGIN_API class UScriptStruct* Z_Construct_UScriptStruct_FBPInteractionSettings(); \
 	static class UScriptStruct* StaticStruct();
 
 
-#define NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRBPDatatypes_h_60_GENERATED_BODY \
+#define NavVRTesting_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRBPDatatypes_h_60_GENERATED_BODY \
 	friend VREXPANSIONPLUGIN_API class UScriptStruct* Z_Construct_UScriptStruct_FBPVRComponentPosRep(); \
 	static class UScriptStruct* StaticStruct();
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRBPDatatypes_h
+#define CURRENT_FILE_ID NavVRTesting_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRBPDatatypes_h
 
 
 #define FOREACH_ENUM_EGRIPINTERFACETELEPORTBEHAVIOR(op) \

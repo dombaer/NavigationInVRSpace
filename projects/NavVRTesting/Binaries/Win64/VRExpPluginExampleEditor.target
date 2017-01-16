@@ -55,7 +55,7 @@
 	"RuntimeDependencies" :
 	[
 		{
-			"Path" : "$(ProjectDir)/NavVRSpace.uproject",
+			"Path" : "$(ProjectDir)/NavVRTesting.uproject",
 			"Type" : "UFS"
 		},
 		{
