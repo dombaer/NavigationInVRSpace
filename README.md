@@ -19,3 +19,10 @@ Marcel Groux, Student iModular FHNW, marcel.groux@students.fhnw.ch
 Simon Marcin, Institut für 4D-Technologien FHNW, simon.marcin@fhnw.ch
 
 Prof. Dr. Stefan Arisona, Institut für 4D-Technologien FHNW, stefan.arisona@fhnw.ch
+
+## Guide
+
+The different navigation methods of the prototype can be found in the following folder of the respective project.
+
+Testing Setup: NavVRTesting/Content/Vive/MyViveFolder/MySimmpleVive_PawnCharacter.uasset
+Final Setup:   NavVRFinal/Content/Vive/MyViveFolder/MySimmpleVive_PawnCharacter.uasset
