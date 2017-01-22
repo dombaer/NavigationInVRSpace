@@ -24,5 +24,6 @@ Prof. Dr. Stefan Arisona, Institut für 4D-Technologien FHNW, stefan.arisona@fhn
 
 The different navigation methods of the prototype can be found in the following folder of the respective project.
 
-Testing Setup: NavVRTesting/Content/Vive/MyViveFolder/MySimmpleVive_PawnCharacter.uasset
-Final Setup:   NavVRFinal/Content/Vive/MyViveFolder/MySimmpleVive_PawnCharacter.uasset
+Testing Setup: projects/NavVRTesting/Content/Vive/MyViveFolder/MySimmpleVive_PawnCharacter.uasset
+
+Final Setup:   projects/NavVRFinal/Content/Vive/MyViveFolder/MySimmpleVive_PawnCharacter.uasset
