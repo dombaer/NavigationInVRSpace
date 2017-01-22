@@ -9,4 +9,11 @@ With the created prototype we tested each navigation method on quality factors l
 The suggestions give insights and a possible edge to virtual reality developers.
 
 
-##
+## Project Team
+
+Dominic Bär, student iCompetence, dominic.baer@students.fhnw.ch
+Marcel Groux, student iModular, marcel.groux@students.fhnw.ch
+
+## Supervising Lecturers
+Simon Marcin, FHNW Institut i4Ds, simon.marcin@fhnw.ch
+Stefan Arisona, FHNW Institut i4Ds, stefa.arisona@fhnw.ch
