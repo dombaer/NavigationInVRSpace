@@ -1,0 +1,5 @@
+D:\navVR\projects\NavVRReal\Source\VRExpPluginExample\VRExpPluginExample.Build.cs
+D:\navVR\projects\NavVRReal\Plugins\AdvancedSessions\Source\AdvancedSessions\AdvancedSessions.Build.cs
+D:\navVR\projects\NavVRReal\Plugins\VRExpansionPlugin\Source\VRExpansionPlugin\VRExpansionPlugin.Build.cs
+D:\navVR\projects\NavVRReal\Source\VRExpPluginExample.Target.cs
+D:\navVR\projects\NavVRReal\Source\VRExpPluginExampleEditor.Target.cs
