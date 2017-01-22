@@ -11,11 +11,11 @@ The suggestions give insights and a possible edge to virtual reality developers.
 
 ## Project Team
 
-Dominic Bär, student iCompetence, dominic.baer@students.fhnw.ch
+Dominic Bär, Student iCompetence FHNW, dominic.baer@students.fhnw.ch
 
-Marcel Groux, student iModular, marcel.groux@students.fhnw.ch
+Marcel Groux, Student iModular FHNW, marcel.groux@students.fhnw.ch
 
 ## Supervising Lecturers
-Simon Marcin, FHNW Institut i4Ds, simon.marcin@fhnw.ch
+Simon Marcin, Institut für 4D-Technologien FHNW, simon.marcin@fhnw.ch
 
-Stefan Arisona, FHNW Institut i4Ds, stefa.arisona@fhnw.ch
+Prof. Dr. Stefan Arisona, Institut für 4D-Technologien FHNW, stefan.arisona@fhnw.ch
