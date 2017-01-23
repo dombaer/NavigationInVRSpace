@@ -1,9 +1,0 @@
-{
-	"Changelist" : 3241561,
-	"CompatibleChangelist" : 3195953,
-	"BuildId" : "",
-	"Modules" : 
-	{
-		"VRExpPluginExample" : "UE4Editor-VRExpPluginExample.dll"
-	}
-}

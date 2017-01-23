@@ -13,7 +13,7 @@ struct FVector;
 #endif
 #define VREXPANSIONPLUGIN_VRRootComponent_generated_h
 
-#define NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_RPC_WRAPPERS \
+#define NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execGetVRRotation) \
 	{ \
@@ -56,7 +56,7 @@ struct FVector;
 	}
 
 
-#define NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+#define NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execGetVRRotation) \
 	{ \
@@ -99,7 +99,7 @@ struct FVector;
 	}
 
 
-#define NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_INCLASS_NO_PURE_DECLS \
+#define NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_INCLASS_NO_PURE_DECLS \
 	private: \
 	static void StaticRegisterNativesUVRRootComponent(); \
 	friend VREXPANSIONPLUGIN_API class UClass* Z_Construct_UClass_UVRRootComponent(); \
@@ -110,7 +110,7 @@ struct FVector;
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_INCLASS \
+#define NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_INCLASS \
 	private: \
 	static void StaticRegisterNativesUVRRootComponent(); \
 	friend VREXPANSIONPLUGIN_API class UClass* Z_Construct_UClass_UVRRootComponent(); \
@@ -121,7 +121,7 @@ struct FVector;
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_STANDARD_CONSTRUCTORS \
+#define NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UVRRootComponent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVRRootComponent) \
@@ -134,7 +134,7 @@ private: \
 public:
 
 
-#define NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_ENHANCED_CONSTRUCTORS \
+#define NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UVRRootComponent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -147,32 +147,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVRRootComponent); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVRRootComponent)
 
 
-#define NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_PRIVATE_PROPERTY_OFFSET
-#define NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_13_PROLOG
-#define NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_GENERATED_BODY_LEGACY \
+#define NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_PRIVATE_PROPERTY_OFFSET
+#define NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_13_PROLOG
+#define NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_PRIVATE_PROPERTY_OFFSET \
-	NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_RPC_WRAPPERS \
-	NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_INCLASS \
-	NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_STANDARD_CONSTRUCTORS \
+	NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_PRIVATE_PROPERTY_OFFSET \
+	NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_RPC_WRAPPERS \
+	NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_INCLASS \
+	NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_GENERATED_BODY \
+#define NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_PRIVATE_PROPERTY_OFFSET \
-	NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_INCLASS_NO_PURE_DECLS \
-	NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_ENHANCED_CONSTRUCTORS \
+	NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_PRIVATE_PROPERTY_OFFSET \
+	NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_INCLASS_NO_PURE_DECLS \
+	NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h_16_ENHANCED_CONSTRUCTORS \
 static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class VRRootComponent."); \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h
+#define CURRENT_FILE_ID NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRRootComponent_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

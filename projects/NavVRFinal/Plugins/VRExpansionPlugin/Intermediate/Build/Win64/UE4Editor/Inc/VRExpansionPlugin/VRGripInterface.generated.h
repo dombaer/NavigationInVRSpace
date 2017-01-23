@@ -17,7 +17,7 @@ class USceneComponent;
 #endif
 #define VREXPANSIONPLUGIN_VRGripInterface_generated_h
 
-#define NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_RPC_WRAPPERS \
+#define NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_RPC_WRAPPERS \
 	virtual FBPInteractionSettings GetInteractionSettings_Implementation()=0; \
 	virtual bool IsInteractible_Implementation()=0; \
 	virtual void ClosestPrimarySlotInRange_Implementation(FVector WorldLocation, bool& bHadSlotInRange, FTransform& SlotWorldTransform)=0; \
@@ -171,7 +171,7 @@ class USceneComponent;
 	}
 
 
-#define NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+#define NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	virtual FBPInteractionSettings GetInteractionSettings_Implementation()=0; \
 	virtual bool IsInteractible_Implementation()=0; \
 	virtual void ClosestPrimarySlotInRange_Implementation(FVector WorldLocation, bool& bHadSlotInRange, FTransform& SlotWorldTransform)=0; \
@@ -325,7 +325,7 @@ class USceneComponent;
 	}
 
 
-#define NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_EVENT_PARMS \
+#define NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_EVENT_PARMS \
 	struct VRGripInterface_eventCanHaveDoubleGrip_Parms \
 	{ \
 		bool ReturnValue; \
@@ -530,8 +530,8 @@ extern VREXPANSIONPLUGIN_API  FName VREXPANSIONPLUGIN_SimulateOnDrop;
 extern VREXPANSIONPLUGIN_API  FName VREXPANSIONPLUGIN_SlotGripType;
 extern VREXPANSIONPLUGIN_API  FName VREXPANSIONPLUGIN_TeleportBehavior;
 extern VREXPANSIONPLUGIN_API  FName VREXPANSIONPLUGIN_TickGrip;
-#define NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_CALLBACK_WRAPPERS
-#define NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_STANDARD_CONSTRUCTORS \
+#define NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_CALLBACK_WRAPPERS
+#define NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UVRGripInterface(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVRGripInterface) \
@@ -544,7 +544,7 @@ private: \
 public:
 
 
-#define NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_ENHANCED_CONSTRUCTORS \
+#define NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UVRGripInterface(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -568,22 +568,22 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_GENERATED_BODY_LEGACY \
+#define NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_GENERATED_BODY_LEGACY \
 		PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 	GENERATED_UINTERFACE_BODY_COMMON() \
-	NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_STANDARD_CONSTRUCTORS \
+	NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_STANDARD_CONSTRUCTORS \
 	PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_GENERATED_BODY \
+#define NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_GENERATED_BODY \
 	PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 	GENERATED_UINTERFACE_BODY_COMMON() \
-	NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_ENHANCED_CONSTRUCTORS \
+	NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_INCLASS_IINTERFACE_NO_PURE_DECLS \
+#define NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_INCLASS_IINTERFACE_NO_PURE_DECLS \
 protected: \
 	virtual ~IVRGripInterface() {} \
 public: \
@@ -616,7 +616,7 @@ public: \
 	virtual UObject* _getUObject() const = 0;
 
 
-#define NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_INCLASS_IINTERFACE \
+#define NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_INCLASS_IINTERFACE \
 protected: \
 	virtual ~IVRGripInterface() {} \
 public: \
@@ -649,32 +649,32 @@ public: \
 	virtual UObject* _getUObject() const = 0;
 
 
-#define NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_9_PROLOG \
-	NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_EVENT_PARMS
+#define NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_9_PROLOG \
+	NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_EVENT_PARMS
 
 
-#define NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_18_GENERATED_BODY_LEGACY \
+#define NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_RPC_WRAPPERS \
-	NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_CALLBACK_WRAPPERS \
-	NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_INCLASS_IINTERFACE \
+	NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_RPC_WRAPPERS \
+	NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_CALLBACK_WRAPPERS \
+	NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_INCLASS_IINTERFACE \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_18_GENERATED_BODY \
+#define NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_CALLBACK_WRAPPERS \
-	NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_INCLASS_IINTERFACE_NO_PURE_DECLS \
+	NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_CALLBACK_WRAPPERS \
+	NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h_12_INCLASS_IINTERFACE_NO_PURE_DECLS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID NavVRReal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h
+#define CURRENT_FILE_ID NavVRFinal_Plugins_VRExpansionPlugin_Source_VRExpansionPlugin_Public_VRGripInterface_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

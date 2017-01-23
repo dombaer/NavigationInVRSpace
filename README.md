@@ -1,4 +1,4 @@
-# [IP5] Navigation In VR Space - University of Applied Sciences FHNW
+﻿# [IP5] Navigation In VR Space - University of Applied Sciences FHNW
 
 With the commercially available HTC Vive it is possible to dive into virtual dream worlds and experience them in person. Such virtual worlds are beautiful, but there are factors that make these worlds less immersive than the real world. One of these factors is the limited tracking space. This limited tracking space can be overcome with new inventive navigation methods.
 
@@ -21,6 +21,8 @@ Simon Marcin, Institut für 4D-Technologien FHNW, simon.marcin@fhnw.ch
 Prof. Dr. Stefan Arisona, Institut für 4D-Technologien FHNW, stefan.arisona@fhnw.ch
 
 ## Guide
+
+Made with Unreal Engine 4.14
 
 The different navigation methods of the prototype can be found in the following folder of the respective project.
 
